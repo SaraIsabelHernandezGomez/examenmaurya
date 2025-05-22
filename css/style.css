@@ -1,0 +1,625 @@
+/*para examen*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffc3f4;
+}
+.header {
+    background: linear-gradient(90deg, #2f1c38 0%, #271231 35%, #563364 100%);
+    color: rgb(252, 244, 244);
+    padding: 35px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.header img {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 80px;
+    height: auto;
+}
+.nav {
+    background-color: #6d4476;
+    padding: 5px;
+    width: 100%;
+    border-radius: 10px;
+}
+.nav div {
+    display: inline-block;
+    color: rgb(236, 208, 175);
+    margin: 15px;
+    cursor: pointer;
+}
+.content-wrapper {
+    display: flex;
+    width: 95%;
+    margin-top: 20px;
+    text-align: justify;
+}
+.main-content {
+    width: 80%;
+    background-color: #fde9d9;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: justify;
+
+}
+
+/*logiii*/
+.contento {
+    display: flex;
+    width: 95%;
+    margin-top: 20px;
+    text-align: justify;
+}
+.manifestacion {
+    width: 100%;
+    background-color: #fde9d9;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: justify;
+}
+
+
+
+.sidebar {
+    width: 20%;
+    background-color: #ab5ea5;
+    padding: 30px;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+.iframe{
+    width: 100%;
+    height: 500px;
+    border: none;
+    
+}
+.footer {
+    background-color: #452d58;
+    color: white;
+    padding: 20px;
+    font-size: 14px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+
+/* Menu codigo examen*/
+
+#encabezado {
+    position: relative; 
+}
+
+#encabezado .menu {
+    width: 200px; 
+    margin-top: 20px;
+    text-align: left;
+    font-size: 20px;
+    background: #fb8cdc;
+    border-radius: 5px;
+
+    position: absolute;  
+    right: 0;             
+    top: 0;
+}
+
+.outu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.outu li {
+    position: relative;
+}
+
+.menu {
+    display: block;
+}
+
+
+.outu a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    transition: .4s;
+    padding: 10px 20px;
+}
+
+.outu a:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+
+.outu li ul {
+    font-size: 17px;
+    max-height: 0;
+    overflow: hidden;
+    transition: all .3s ease;
+    background: #e769dd;
+}
+
+
+.outu li:hover > ul {
+    max-height: 500px;
+}
+
+
+.menu ul ul {
+    right: 100%;
+    top: 0;
+    position: absolute;
+}
+
+.outu li li {
+    width: 155px;
+}
+
+
+/*formulario examen logi*/
+
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, button{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #6d4476;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button{
+    background-color: #ab5ea5;
+    color:rgb(252, 244, 244);
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    
+}
+
+button:hover{
+    background-color: #583972;
+}
+
+/*Imagen al lado izquierdo*/
+.edor2 {
+    float: left;
+    margin-right: 10px;
+    border-radius: 5px;
+    text-align: justify;
+}
+
+/*Imagen al lado derecho*/
+.nedor3 {
+    float: right;
+    margin-left: 10px;
+    border-radius: 5px;
+    text-align: justify;
+}
+
+
+/*tabla 1 del examen*/
+table.biografia {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  margin-top: 30px;
+  box-shadow: 0 0 40px rgba(0,0,0,0.1);
+}
+
+table.biografia th, table.biografia td {
+  border: 1px solid #a19e9e;
+  padding: 15px;
+  text-align: left;
+  vertical-align: top;
+}
+
+table.biografia th {
+  background-color: #fd7b7b;
+  color: #000;
+  font-size: 18px;
+}
+
+table.biografia tr:nth-child(even) {
+  background-color: #fae1e1;
+}
+
+/*tabla 2 examen*/
+h3 {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.imperio-tabla {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.imperio-th, .imperio-td {
+    border: 1px solid #a3a3a3;
+    padding: 15px;
+    text-align: left;
+}
+
+.imperio-th {
+    background-color: #b4355f;
+    color: white;
+    font-weight: bold;
+}
+
+.imperio-tr:nth-child(even) .imperio-td {
+    background-color: #eeeeee;
+}
+
+
+
+/*lista ordenanda*/
+h3 {
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.lista-ajatashatru {
+    background-color: #ffeeee;
+    width: 70%;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(240, 140, 140, 0.733);
+    text-align: left;
+    font-size: 16px;
+    color: #000000;
+}
+
+.lista-ajatashatru li {
+    margin-bottom: 25px;
+}
+
+/*cronologia*/
+.lista-gobernantes {
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+    color: #000000;
+    background-color: #fae2f5;
+    border: 2px solid #7a797a;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.116);
+}
+
+.lista-gobernantes ol {
+    padding-left: 25px;
+}
+
+.lista-gobernantes li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+/*segunda lista ordenada cronologia*/
+.lista-detallada {
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+    color: #000000;
+    background-color: #fefdfe;
+    border: 2px solid #d8c5d5;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 700px;
+    margin: 30px auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.lista-detallada p {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.lista-detallada ol {
+    padding-left: 25px;
+}
+
+.lista-detallada li {
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
+
+
+/*codigo del proyecto del contenido*/
+
+
+.conta {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eae4ff;
+}
+
+.apper {
+    display: flex;
+    width: 95%;
+    margin-top: 20px;
+    text-align: justify;
+}
+.maini {
+    width: 80%;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: justify;
+
+}
+.bar {
+    width: 20%;
+    background-color: #867efa;
+    padding: 30px;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+.iframe{
+    width: 100%;
+    height: 500px;
+    border: none;
+    
+}
+
+
+
+/* Menu codigo*/
+
+#encabe {
+    position: relative; 
+}
+
+#encabe .m {
+    width: 200px; 
+    margin-top: 20px;
+    text-align: left;
+    font-size: 20px;
+    background: #205fb2;
+
+    position: absolute;  
+    right: 0;             
+    top: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    position: relative;
+}
+
+.m {
+    display: block;
+}
+
+
+nav a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    transition: .4s;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    background: rgba(0, 0, 0, .5);
+}
+
+
+nav li ul {
+    font-size: 17px;
+    max-height: 0;
+    overflow: hidden; 
+    transition: all .3s ease;
+    background: #2c88bd;
+}
+
+
+nav li:hover > ul {
+    max-height: 500px;
+}
+
+
+.m ul ul {
+    right: 100%;
+    top: 0;
+    position: absolute;
+}
+
+nav li li {
+    width: 155px;
+}
+
+
+/*img*/
+.edor {
+    display: flex;
+    align-items: center; /* Alinear elementos verticalmente */
+}
+.edor img {
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+}
+
+
+/* tabla 1 */
+
+
+h1 {
+    color: #2a3a5c;
+    margin-bottom: 30px;
+}
+
+.tabla-economia {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.tabla-economia th, .tabla-economia td {
+    border: 1px solid #cccccc;
+    padding: 12px;
+    text-align: left;
+}
+
+.tabla-economia th {
+    background-color: #4e4caf;
+    color: white;
+}
+
+.tabla-economia tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Lista Ordenada acumulativo*/
+.lista-descubrimientos {
+    text-align: left;
+    width: 70%;
+    margin: auto;
+    padding: 30px;
+    background-color: #8e93c2;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.lista-descubrimientos li {
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+/*Tabla dosssss*/
+.table-container {
+    overflow-x: auto;
+}
+
+.tabla-cronologia {
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tabla-cronologia th, .tabla-cronologia td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+}
+
+.tabla-cronologia th {
+    background-color: #2980b9;
+    color: white;
+    font-size: 18px;
+}
+
+.tabla-cronologia tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tabla-cronologia td {
+    font-size: 16px;
+    color: #333;
+}
+
+/* figuras Cronologia */
+
+.lista-valle-indo {
+    list-style-type: square;
+    background-color: #ffffff;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    font-size: 16px;
+    color: #333;
+}
+
+.lista-valle-indo li {
+    margin-bottom: 10px;
+}
+
+/*formulario acumulativo*/
+
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select, textarea, button{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #8ce9f0;
+    border-radius: 5px;
+    font-size: 16px;
+}
+textarea{
+    resize: none;
+}
+/*Me toco poner un div para no distorsionar el login*/
+.bu{
+    background-color: rgb(85, 144, 212);
+    color: darkkhaki;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    
+}
+.bu:hover{
+    background-color: rgb(0, 10, 100);
+}
+
+/* adaptador*/
+
+@media (max-width: 768px){
+    form{
+        padding: 10px;
+    }
+
+    input, select, textarea, button{
+        font-size: 14px;
+    }
+}
